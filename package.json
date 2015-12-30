@@ -1,0 +1,30 @@
+{
+  "name": "browserify2",
+  "version": "0.0.1",
+  "description": "browserifyDemo",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "bootstrap": "^3.3.6",
+    "browserify": "^12.0.1",
+    "jquery": "^2.1.4",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t [babelify --presets [react] ] index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luciahelloworld/browserifyDemo.git"
+  },
+  "author": "Lucianus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luciahelloworld/browserifyDemo/issues"
+  },
+  "homepage": "https://github.com/Luciahelloworld/browserifyDemo#readme"
+}
