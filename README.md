@@ -1,5 +1,6 @@
 # browserifyDemo  
-用browserify进行开发练习
+用browserify进行开发练习  
+
 ![show gif](https://github.com/Luciahelloworld/browserifyDemo/raw/master/chooseMenu.gif)  
 
   
